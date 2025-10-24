@@ -1,4 +1,4 @@
-# UTS Sister: Pub-Sub Log Aggregator Sederhana 
+# UTS SPD: Pub-Sub Log Aggregator Sederhana
 
 Proyek ini adalah implementasi layanan agregator log berbasis *publish-subscribe* internal untuk Ujian Tengah Semester mata kuliah Sistem Paralel dan Terdistribusi. Layanan ini dibangun menggunakan Python dan FastAPI, berjalan di dalam *container* Docker, dan dilengkapi dengan mekanisme deduplikasi *event* serta *consumer* yang idempoten.
 
@@ -117,3 +117,10 @@ Layanan ini menyediakan *endpoint* REST API berikut:
       "queue_size": <jumlah_event_saat_ini_di_antrean>
     }
     ```
+
+---
+
+## 🎬 Video Demo
+
+Tonton demonstrasi teknis proyek ini di YouTube:
+[Demo Log Aggregator Idempoten](https://youtu.be/L1VUHhSbryY?si=jCfbvjTTMnGPsePm)
